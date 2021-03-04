@@ -16,8 +16,9 @@ inputs should be called inDJA and inDJB but for whatever reason they are not vis
 
 # starting mixxx  
 if you are using pulseaudio you need to disable it  
-pulseaudio --kill
-pasuspender mixxx
+pulseaudio --kill  
+or you can try  
+pasuspender mixxx  
 
 # disable pulseaudio autospawn (optional)
 edit /etc/pulse/client.conf  
