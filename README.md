@@ -2,11 +2,13 @@
 alsa configs to use mixxx with Native Instruments Audio4DJ USB interface 2 ouputs, vinyl control
 
 # put the .asoundrc to your home folder  
-this will create alsa audio devices called 
+this will create alsa audio devices called:   
 outDJA channels 1-2  
 outDJB channels 1-2  
+
 set these for deck 1 and deck 2 outputs  
-for vinyl control you set the same  
+
+for vinyl control you set the same:  
 outDJA channels 1-2  
 outDJB channels 1-2  
 
