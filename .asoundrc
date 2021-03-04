@@ -1,0 +1,18 @@
+#https://mixxx.discourse.group/t/vinyl-control-problems-with-ni-audio4-dj/15712
+
+pcm.outDJA {
+type plug; 
+slave.pcm "hw:Audio4DJ,0,0";
+} 
+pcm.outDJB {
+type plug; 
+slave.pcm "hw:Audio4DJ,0,1";
+} 
+pcm.inDJA {
+type plug; 
+slave.pcm "hw:Audio4DJ,1,0";
+} 
+pcm.inDJB {
+type plug; 
+slave.pcm "hw:Audio4DJ,1,1";
+}
